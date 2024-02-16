@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pizza.svg);
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 5px grey;
+}
+.logo{
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+.menu a:last-child{
+    background: brown;
+    color: azure;
+    border-radius: 8px;
+}
+.h-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 15px;
+/* }
+.h-text h1{
+    color: black;
+    letter-spacing: 3px; */
+    
+}
+#started{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    background-color: rgb(112, 165, 42);
+    border-radius: 3px;
+    align-items: center;
+  
+}
+.h-text input{
+    size-adjust: 2px;
+}
+.card{
+    justify-content: center;
+    
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.img{
+    
+    background-image: url(../chef.png); width: 100%;
+    height: 100vh;
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+    align-items: center;
+    padding: 2px;
+    margin-top: 2px;
+    margin-left: 5px;
+
+}
+.text{
+    width: 50%;
+    float: right;
+    align-items: center;
+    /* padding: 2px;
+    margin-top: 2px;
+    margin-left: 5px; */
+    align-self: flex-end;
+    order: 1;
+}
+.main{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    order: -3; 
+    align-self: flex-end;  
+}
+span{
+    color: #350202;
+}
+    
